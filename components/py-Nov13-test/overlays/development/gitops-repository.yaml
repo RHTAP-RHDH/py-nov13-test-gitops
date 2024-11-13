@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: py-Nov13-test-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/py-nov13-test-gitops
